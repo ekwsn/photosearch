@@ -1,0 +1,22 @@
+//
+//  Photo Search Example-Prefix.pch
+//  Photo Search Example
+//
+//  Created by Lok on 27/08/2015.
+//  Copyright (c) 2015 Lok. All rights reserved.
+//
+
+#ifndef Photo_Search_Example_Photo_Search_Example_Prefix_pch
+#define Photo_Search_Example_Photo_Search_Example_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#ifndef TARGET_OS_IOS
+#define TARGET_OS_IOS TARGET_OS_IPHONE
+#endif
+#ifndef TARGET_OS_WATCH
+#define TARGET_OS_WATCH 0
+#endif
